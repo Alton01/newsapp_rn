@@ -22,10 +22,10 @@ const Page = (props: Props) => {
 
   return (
     <View style={[styles.container, { paddingTop: safeTop + 25 }]}>
-      {/*}   <SearchBar
+      <SearchBar
         withHorizontalPadding={false}
         setSearchQuery={setSearchQuery}
-      /> */}
+      />
       <Text style={styles.title}>Categories</Text>
       <View style={styles.listContainer}>
         {newsCategories.map((item) => (
